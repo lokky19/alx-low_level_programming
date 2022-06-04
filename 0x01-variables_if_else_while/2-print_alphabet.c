@@ -11,9 +11,9 @@ int main(void)
 {
 	int abet;
 
-	for (habet = 'a'; alphabet <= 'z'; abet++)
+	for (abet = 'a'; abet <= 'z'; abet++)
 	{
-		putchar(alphabet);
+		putchar(abet);
 	}
 	putchar('\n');
 	return (0);
