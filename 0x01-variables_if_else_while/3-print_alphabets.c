@@ -1,20 +1,27 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - return alphabets expect e and q
+ * main - Print alphabet both in upper and lowercase
  *
- * Description: print the required results
+ * Description: print a to z in upper and lower
  *
- * Return: integer value 0
+ * Return: return integer value 0
  *
  */
 int main(void)
 {
-char letter;
-for (letter =  'a'; letter <= 'z'; letter++)
-putchar(letter);
-for (letter = 'A'; letter <= 'Z'; letter++)
-putchar(letter);
-putchar('\n');
-return(0)
+	char alphabet;
+
+	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+	{
+		putchar(tolower(alphabet));
+	}
+	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+	{
+		putchar(alphabet);
+	}
+
+	putchar('\n');
+	return (0);
+
 }
